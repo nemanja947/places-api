@@ -1,0 +1,28 @@
+{
+  "name": "places-api",
+  "version": "1.0.0",
+  "description": "Places api assignment",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nemanja947/places-api.git"
+  },
+  "author": "Nemanja Bjelic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nemanja947/places-api/issues"
+  },
+  "homepage": "https://github.com/nemanja947/places-api#readme"
+}
